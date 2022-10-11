@@ -9,26 +9,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
-<style> 
-    .newspaper0 {
-      columns: 100px 1;
-    }
-    .newspaper1 {
-      columns: 100px 2;
-    }
-    
-    .newspaper2 {
-      columns: 50px 3;
-    }
 
-
-
-
-    </style>
 <body>
     <div class="container">
         
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg p-1" id="nav_id" style="background-color:gray">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,7 +23,6 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <form class="d-flex d-lg-none">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -69,7 +53,7 @@
             <div class="d-none d-lg-block">
             <form class="d-flex ">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                
               </form>
             </div>
           </div>
@@ -77,77 +61,82 @@
       </nav>
     </div>
 
-    <div id="prueba">
-    <br>
-    </br>
+   
     <center><h3>Lorem Ipsum...</h3></center>
+    <div id="container_carrousel"></div>
 
-    <center>
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="200">
-          <div>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="200">
-          <div>
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-            </div>
-        </div>
-        
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </center>
+  
 <br>
   </div>
-
-
-
-
     <div class="container ">
         <div class="row mb-3">
             <div class="col-3 d-none d-lg-block">
                 <table>
                      <tr>
-                      <td><a class="dropdown-item" href="logout.html"><u>Opción 1</u></a></td>
+                      <td><a class="dropdown-item" href=""><u>Opción 1</u></a></td>
                     </tr>
                     <tr>
-                        <td><a class="dropdown-item" href="logout.html"><u>Opción 2</u></a></td>
+                        <td><a class="dropdown-item" href=""><u>Opción 2</u></a></td>
                       </tr>
                       <tr>
-                        <td><a class="dropdown-item" href="logout.html"><u>Opción 3</u></a></td>
+                        <td><a class="dropdown-item" href=""><u>Opción 3</u></a></td>
                       </tr>
                       <tr>
-                        <td><a class="dropdown-item" href="logout.html"><u>Opción 4</u></a></td>
+                        <td><a class="dropdown-item" href=""><u>Opción 4</u></a></td>
                       </tr>
                   </table>
             </div>
             
             <div class="col-8 d-sm-block d-md-none">
                 <div class="newspaper0">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                    </div>
+                  <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                  
+                  <p style="text-align: justify;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                  
+                  <p style="text-align: justify;">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> 
+                  
+                  <p style="text-align: justify;">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                  
+                  <p style="text-align: justify;">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+                  
+                  <p style="text-align: justify;">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                  </div>
             </div>
 
-            <div class="col-8 d-none d-md-block d-lg-none">
+            <div class="col-8 d-none d-md-block d-lg-none" style="margin-left: 100px;">
+             
                 <div class="newspaper1">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                    </div>
+                  <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                  
+                  <p style="text-align: justify;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                  
+                  <p style="text-align: justify;">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> 
+                  
+                  <p style="text-align: justify;">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                  
+                  <p style="text-align: justify;">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+                  
+                  <p style="text-align: justify;">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                  
+                  </div>
+               
+                
             </div>
 
             <div class="col-8 d-none d-lg-block">
                 <div class="newspaper2">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                    </div>
+                  <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                  
+                  <p style="text-align: justify;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                  
+                  <p style="text-align: justify;">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> 
+                  
+                  <p style="text-align: justify;">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                  
+                  <p style="text-align: justify;">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+                  
+                  <p style="text-align: justify;">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                  </div>
             </div>
 
           </div>
